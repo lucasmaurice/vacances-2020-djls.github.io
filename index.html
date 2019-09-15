@@ -1,34 +1,49 @@
-	<!DOCTYPE html>
-	<html lang="zxx" class="no-js">
-	<head>
-		<!-- Mobile Specific Meta -->
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<!-- Favicon-->
-		<link rel="shortcut icon" href="img/fav.png">
-		<!-- Author Meta -->
-		<meta name="author" content="codepixer">
-		<!-- Meta Description -->
-		<meta name="description" content="">
-		<!-- Meta Keyword -->
-		<meta name="keywords" content="">
-		<!-- meta character set -->
-		<meta charset="UTF-8">
-		<!-- Site Title -->
-		<title>Voyage</title>
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+<head>
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/fav.png">
+    <!-- Author Meta -->
+    <meta name="author" content="codepixer">
+    <!-- Meta Description -->
+    <meta name="description" content="">
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="">
+    <!-- meta character set -->
+    <meta charset="UTF-8">
+    <!-- Site Title -->
+    <title>Voyage</title>
 
-		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
-			<!--
-			CSS
-			============================================= -->
-			<link rel="stylesheet" href="css/linearicons.css">
-			<link rel="stylesheet" href="css/font-awesome.min.css">
-			<link rel="stylesheet" href="css/bootstrap.css">
-			<link rel="stylesheet" href="css/magnific-popup.css">
-			<link rel="stylesheet" href="css/nice-select.css">					
-			<link rel="stylesheet" href="css/animate.min.css">
-			<link rel="stylesheet" href="css/owl.carousel.css">
-			<link rel="stylesheet" href="css/main.css">
-    </head>
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/c879fd0082.js"></script>
+
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148034463-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-148034463-1');
+    </script>
+
+        <!--
+        CSS
+        ============================================= -->
+        <link rel="stylesheet" href="css/linearicons.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/nice-select.css">					
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/main.css">
+</head>
 <body>
 
     <header id="header" id="home">
@@ -41,14 +56,13 @@
             <ul class="nav-menu">
                 <li class="menu-active"><a href="#home">Accueil</a></li>
                 <li><a href="#videos">Videos</a></li>
-                <!-- <li><a href="#speakers">Speakers</a></li> -->
-                <li><a href="#schedule">Calendrier</a></li>
-                <!-- <li class="menu-has-children"><a href="">Pages</a>
+                <li class="menu-has-children"><a href="#hebergements">Hébergements</a>
                 <ul>
-                    <li><a href="generic.html">Generic</a></li>
-                    <li><a href="elements.html">Elements</a></li>
+                    <li><a href="#hebergement1">Montreal</a></li>
+                    <li><a href="#hebergement2">Lac Beauport</a></li>
                 </ul>
-                </li> -->
+                </li>
+                <li><a href="#schedule">Calendrier</a></li>
             </ul>
             </nav><!-- #nav-menu-container -->		    		
         </div>
@@ -75,150 +89,80 @@
             </div>
         </div>
     </section>
-    <!-- End banner Area -->
 
     <!-- Start video-sec Area -->
     <section class="video-sec-area section-gap" id="videos">
         <div class="container">
             <div class="row justify-content-center align-items-center ">
                 <div class="col-lg-6 video-left">
-                    <!-- <h6>Quelques vidéos intéressantes</h6> -->
                     <h1>Quelques vidéos intéressantes</h1>
-                    <!-- <p><span>We are here to listen from you deliver exellence</span></p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
-                    </p> -->
-                    <!-- <a class="primary-btn" href="#">Get Started now</a> -->
+                    <p><span>Attention, le son est important !</span></p>
+                    <p>Cliquer sur les boutons en dessous de la vidéo pour faire défiler.</p>
                 </div>
                 <div class="col-lg-6">
                     <div class="active-video-carusel">
-                            <div class="item video-right justify-content-center align-items-center d-flex" style="background:url(img/video1-bg.jpg) no-repeat center;background-size: cover;">
+                        <div class="item video-right justify-content-center align-items-center d-flex" style="background:url(https://img.youtube.com/vi/F1Ej7LRdO7A/hqdefault.jpg) no-repeat center;background-size: cover;">
+                            <div class="overlay overlay-bg"></div>
+                            <a class="play-btn" href="https://www.youtube.com/watch?v=F1Ej7LRdO7A"><img class="img-fluid" src="img/play-icon.png" alt=""></a>
+                        </div>
+                        <div class="item video-right justify-content-center align-items-center d-flex" style="background:url(https://img.youtube.com/vi/USjjq_trfLs/hqdefault.jpg) no-repeat center;background-size: cover;">
                             <div class="overlay overlay-bg"></div>
                             <a class="play-btn" href="https://www.youtube.com/watch?v=USjjq_trfLs"><img class="img-fluid" src="img/play-icon.png" alt=""></a>
-                            </div>
-                            <div class="item video-right justify-content-center align-items-center d-flex" style="background:url(img/video2-bg.jpg) no-repeat center;background-size: cover;">
-                            <div class="overlay overlay-bg"></div>
-                            <a class="play-btn" href="https://www.youtube.com/watch?v=ARA0AxrnHdM"><img class="img-fluid" src="img/play-icon.png" alt=""></a>
-                            </div>	
-                            <div class="item video-right justify-content-center align-items-center d-flex" style="background:url(img/video3-bg.jpg) no-repeat center;background-size: cover;">
-                            <div class="overlay overlay-bg"></div>
-                            <a class="play-btn" href="https://www.youtube.com/watch?v=ARA0AxrnHdM"><img class="img-fluid" src="img/play-icon.png" alt=""></a>
-                            </div>																		
+                        </div>																
                     </div>							
                 </div> 
             </div>
         </div>	
     </section>
     <!-- End video-sec Area -->
-
-
-    <!-- Start spekers Area -->
-    <section class="spekers-area pb-100" id="speakers">
-        <div class="container-fluid">
-            <div class="row no-padding">
-                <div class="active-speaker-carusel col-lg-12 no-padding">
-                    <div class="single-speaker item">
-                        <div class="container">
-                            <div class="row align-items-center">
-                                <div class="col-md-6 speaker-img no-padding">
-                                    <img src="img/logement1.jpg" alt="">
-                                </div>
-                                <div class="col-md-6 speaker-info no-padding">
-                                    <h6 class="text-uppercase">19 Déc - 26 Déc</h6>
-                                    <h1 class="text-white">Stylish & Unique 3 Bdr flat</h1>
-                                    <p>
-                                        Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances.
-                                    </p>
-                                    <p><span class="lnr lnr-phone-handset"></span>+880 (012) 8954 253</p>
-                                    <p><i class="fa fa-facebook"></i>iamspeaker@gmail.com</p>
-                                    <ul>
-                                        <a href="https://www.airbnb.fr/rooms/26379445?source_impression_id=p3_1568078739_BlEFJ095yCvXV6Ht"><i class="fa fa-link"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-dribbble"></i></a>
-                                        <a href="#"><i class="fa fa-behance"></i></a>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>								
+    
+    <!-- Start home-aboutus Area -->
+    <section class="home-aboutus-area" id="hebergements">
+            <div class="container-fluid" id="hebergement1">
+                <div class="row justify-content align-items-center">
+                    <div class="col-lg-6 no-padding about-left">
+                        <img class="img-fluid" src="https://a0.muscache.com/im/pictures/c95a62c2-9d04-4b7f-a8e4-4a46f5e82aaf.jpg?aki_policy=xx_large" alt="">
                     </div>
-                    <div class="single-speaker item">
-                        <div class="container">
-                            <div class="row align-items-center">
-                                <div class="col-md-6 speaker-img no-padding">
-                                    <img src="img/s2.jpg" alt="">
-                                </div>
-                                <div class="col-md-6 speaker-info no-padding">
-                                    <h6 class="text-uppercase">speaker 02</h6>
-                                    <h1 class="text-white">Elizabeth Stokes</h1>
-                                    <p>
-                                        Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances.
-                                    </p>
-                                    <p><span class="lnr lnr-phone-handset"></span>+880 (012) 8954 253</p>
-                                    <p><span class="lnr lnr-location"></span>iamspeaker@gmail.com</p>
-                                    <ul>
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-dribbble"></i></a>
-                                        <a href="#"><i class="fa fa-behance"></i></a>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>								
-                    </div>	
-                    <div class="single-speaker item">
-                        <div class="container">
-                            <div class="row align-items-center">
-                                <div class="col-md-6 speaker-img no-padding">
-                                    <img src="img/s1.jpg" alt="">
-                                </div>
-                                <div class="col-md-6 speaker-info no-padding">
-                                    <h6 class="text-uppercase">speaker 01</h6>
-                                    <h1 class="text-white">Essie Ballard</h1>
-                                    <p>
-                                        Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances.
-                                    </p>
-                                    <p><span class="lnr lnr-phone-handset"></span>+880 (012) 8954 253</p>
-                                    <p><span class="lnr lnr-location"></span>iamspeaker@gmail.com</p>
-                                    <ul>
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-dribbble"></i></a>
-                                        <a href="#"><i class="fa fa-behance"></i></a>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>								
-                    </div>	
-                    <div class="single-speaker item">
-                        <div class="container">
-                            <div class="row align-items-center">
-                                <div class="col-md-6 speaker-img no-padding">
-                                    <img src="img/s2.jpg" alt="">
-                                </div>
-                                <div class="col-md-6 speaker-info no-padding">
-                                    <h6 class="text-uppercase">speaker 02</h6>
-                                    <h1 class="text-white">Elizabeth Stokes</h1>
-                                    <p>
-                                        Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances.
-                                    </p>
-                                    <p><span class="lnr lnr-phone-handset"></span>+880 (012) 8954 253</p>
-                                    <p><span class="lnr lnr-location"></span>iamspeaker@gmail.com</p>
-                                    <ul>
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-dribbble"></i></a>
-                                        <a href="#"><i class="fa fa-behance"></i></a>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>								
-                    </div>																					
+                    <div class="offset-sm-1 col-lg-4 no-padding about-right">
+                        <h6 class="text-uppercase">19 Déc - 26 Déc</h6>
+                        <h1 class="text-white">Appartement 3 chambres élégant et unique</h1>
+                        <p>Appartement moderne entièrement meublé et conçu par des professionnels, à distance de marche du célèbre marché Jean-Talon, des restaurants et de la station de métro Beaubien.</p>
+                        <p><ul>
+                            <li><i class="fas fa-angle-right"></i> Matelas neufs et draps haut de gamme.</li>
+                            <li><i class="fas fa-angle-right"></i> Appareils de cuisine haut de gamme, neufs. Laveuse et sécheuse incluse.</li>
+                            <li><i class="fas fa-angle-right"></i> Produits de bain de marque, café, thé, huile d'olive, sel et poivre inclus.</li>
+                            <li><i class="fas fa-angle-right"></i> Place de parking réservée.</li>
+                            <li><i class="fas fa-angle-right"></i> Térrasse privée.</li>
+                        </ul></p>
+                        <p><ul>
+                            <p><a href="tel:+1(514)754-6992"><i class="fas fa-phone"></i> +1 (514) 754-6992</a></p>
+                            <p><a href="https://goo.gl/maps/oyVtK2b2HjmtooGN8"><i class="far fa-map"></i> Montréal - Petite Italie </a></p>
+                            <p><a href="https://www.airbnb.fr/rooms/26379445"><i class="fab fa-airbnb"></i> Airbnb</a></p>
+                        </ul></p>
+                    </div>
                 </div>
             </div>
-        </div>	
-    </section>
-    <!-- End spekers Area -->
-    
+            <div class="container-fluid" id="hebergement2">
+                <div class="row justify-content-end align-items-center">
+                    <div class="col-lg-4 no-padding about-right">
+                        <h6 class="text-uppercase">26 Déc - 3 Janv</h6>
+                        <h1 class="text-white">Chalet <i>« Le Voyageur »</i></h1>
+                        <p>Ce beau chalet confortable est bien équipé : on y trouve stationnement privé directement à votre chalet, 2 grands patios, grand terrain et feu de camps, près d'un ruisseau avec terrain boisé.</p>
+                        <p><ul>
+                            <p><a href="tel:+1(514)754-6992"><i class="fas fa-phone"></i> +1 (514) 754-6992</a></p>
+                            <p><a href="https://goo.gl/maps/drxv8g91FWthEQWZA"><i class="far fa-map"></i> Lac-Beauport - Proche de Québec</a></p>
+                            <p><a href="https://www.airbnb.fr/rooms/12426709"><i class="fab fa-airbnb"></i> Airbnb</a></p>
+                            <p><a href="https://chaletslacbeauport.com/chalet-le-voyageur"><i class="fas fa-link"></i> Site web du loueur</a></p>
+                            <p><a href="https://chaletslacbeauport.com/quoi-faire-chalets#1530730029061-971194e8-bbe1"><i class="fas fa-link"></i> Liste d'activités proches</a></p>
+                        </ul></p>
+                    </div>
+                    <div class="col-lg-6 no-padding about-left">
+                        <img class="img-fluid" src="https://a0.muscache.com/im/pictures/bb1b11db-1eb9-4f3f-af43-5ce702161991.jpg?aki_policy=xx_large" alt="">
+                    </div>
+                </div>
+            </div>	
+        </section>
+        <!-- End home-aboutus Area -->
 
     <!-- Start schedule Area -->
     <section class="schedule-area pb-100" id="schedule">
@@ -226,8 +170,8 @@
             <div class="row d-flex justify-content-center">
                 <div class="menu-content pb-70 col-lg-8">
                     <div class="title text-center">
-                        <h1 class="mb-10">How Our Customers Treat Us</h1>
-                        <p>Who are in extremely love with eco friendly system.</p>
+                        <h1 class="mb-10">Calendrier</h1>
+                        <p>Liste des différentes activités et dates.</p>
                     </div>
                 </div>
             </div>						
@@ -236,11 +180,11 @@
                     <table class="schdule-table table table-bordered">
                             <thead class="thead-light">
                             <tr>
-                                <th class="head" scope="col">sl</th>
-                                <th class="head" scope="col">session</th>
-                                <th class="head" scope="col">speaker</th>
-                                <th class="head" scope="col">vanue</th>
-                                <th class="head" scope="col">time</th>
+                                <th class="head" scope="col">#</th>
+                                <th class="head" scope="col">Activité</th>
+                                <th class="head" scope="col">Lieu</th>
+                                <th class="head" scope="col">Date</th>
+                                <th class="head" scope="col">Horraire</th>
                             </tr>
                             </thead>
                             <tbody>
